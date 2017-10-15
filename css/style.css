@@ -1,54 +1,94 @@
 * {
     box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
-.box {
-    width: 700px
+
+body {
+    margin: 0;
+    padding: 0;
 }
+
 h1 {
+    font-size: 1.75em;
     text-align: center;
-    padding: 20px;
 }
-h4 {
-    margin: 0px;
-    padding: 5px;
-    border: 1px solid black;
-    border-top: 0px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
+
+section {
+    background-color: #999999;
+    border: 1px solid #000000;
+    margin: 0 0 25px 0;
+    padding: 0;
 }
-p {
-    color: #4cae4c;
-    padding: 50px 17px 10px 17px;
+
+section h2 {
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+    margin: 0 0 0 60%;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 2px 0;
+    width: 40%;
 }
-.backgroud-1 {
-    background-color: #0081ff;
+
+section p {
+    padding: 0 6px 4px 6px;
 }
-.backgroud-2 {
-    background-color: #00ff4b;
+
+#chicken h2 {
+    background-color: #d59898;
+    color: #161616;
 }
-.backgroud-3 {
-    background-color: #ff0062;
-    color: #ffffff;
+
+#beef h2 {
+    background-color: #c14543;
+    color: #e8e8e8;
 }
-.p-section {
-    height: 250px;
-    background-color: #3e2723;
-    border: 1px solid black;
-    margin-bottom: 30px;
-    position: relative;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+#sushi h2 {
+    background-color: #e5d198;
+    color: #161616;
 }
-/*
-!**************** Desktop *******************!
+
+
+
 @media (min-width: 992px) {
+    section {
+        float: left;
+        margin-right: 2.5%;
+        width: 30%;
+    }
+
+    #chicken {
+        margin-left: 2.5%;
+    }
 }
-!**************** Tablet *******************!
+
 @media (min-width: 768px) and (max-width: 991px) {
+    section {
+        float: left;
+        margin-right: 2.5%;
+        width: 46.25%;
+    }
+    #chicken {
+        margin-left: 2.5%;
+    }
+
+    #sushi {
+        clear: left;
+        margin-left: 2.5%;
+        width: 95%;
+    }
+
+    #sushi h2 {
+        margin: 0 0 0 80%;
+        width: 20%;
+    }
 }
-!**************** Mobile *******************!
+
 @media (max-width: 767px) {
+    section {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        width: 95%;
+    }
 }
-*/
